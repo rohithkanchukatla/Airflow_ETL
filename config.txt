@@ -1,0 +1,4 @@
+Host *
+    HostKeyAlgorithms +ssh-rsa
+    UserKnownHostsFile %USERPROFILE%\.ssh\known_hosts
+    IdentityFile %USERPROFILE%\.ssh\airflow_new.pem
